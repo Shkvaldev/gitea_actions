@@ -17,7 +17,7 @@
 
 1. Install Docker:
 ```bash
-sudo apt update -y && apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 
 sudo apt install curl gnupg lsb-release software-properties-common ca-certificates apt-transport-https -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
