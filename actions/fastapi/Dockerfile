@@ -8,7 +8,7 @@ RUN pip install -r requirements.txt
 
 # Do some required things
 
-COPY * ./
+COPY . .
 
 EXPOSE 3000
 
